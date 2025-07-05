@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+{% block title %}Crear Landing{% endblock %}
+
+{% block content %}
+  <h1>Crear una nueva Landing</h1>
+  <form method="post">
+    {{ form.hidden_tag() }}
+
+    <div>
+      {{ form.slug.label }}<br>
+      {{ form.slug(size=30) }}
+    </div>
+
+    <div>
+      {{ form.title.label }}<br>
+      {{ form.title(size=50) }}
+    </div>
+
+    <div>
+      {{ form.description.label }}<br>
+      {{ form.description(size=80) }}
+    </div>
+
+    <div>
+      {{ form.theme.label }}<br>
+      {{ form.theme() }}
+    </div>
+
+    <div>
+      {{ form.submit() }}
+    </div>
+  </form>
+{% endblock %}
+
