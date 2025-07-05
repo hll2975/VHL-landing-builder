@@ -1,1 +1,3 @@
-app/routes/__init__.py
+
+
+# Necesario para que Flask detecte esta carpeta como un módulo
