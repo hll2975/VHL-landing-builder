@@ -7,16 +7,28 @@ landing-builder/
 │   ├── models.py
 │   ├── forms.py
 │   ├── routes/
-│   │   ├── builder.py
-│   │   ├── render.py
-│   │   └── metrics.py
+│   │   ├── __init__.py
+│   │   ├── builder.py           # Creación de landing
+│   │   ├── render.py            # Visualización de la landing
+│   │   └── metrics.py           # Registro de visitas/envíos
 │   ├── templates/
 │   │   ├── base.html
+│   │   ├── builder/create.html
+│   │   └── themes/
+│   │       └── modern.html
 │   └── static/
-│       ├── css/, js/, img/
+│       └── css/
+│           └── style.css
+│
+├── scripts/
+│   └── import_demo.py           # Script para importar JSON demo
+│
+├── demo/
+│   └── landing.json             # Archivo JSON de ejemplo
 │
 ├── config.py
 ├── run.py
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+
