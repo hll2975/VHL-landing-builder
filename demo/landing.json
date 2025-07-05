@@ -1,0 +1,9 @@
+{
+  "slug": "mi-landing-ejemplo",
+  "theme": "modern",
+  "fields": {
+    "title": "¡Bienvenido a mi proyecto!",
+    "description": "Esta es una landing generada desde un archivo JSON."
+  }
+}
+
