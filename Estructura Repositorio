@@ -1,0 +1,22 @@
+📁 Estructura Base del Proyecto
+
+landing-builder/
+│
+├── app/
+│   ├── __init__.py
+│   ├── models.py
+│   ├── forms.py
+│   ├── routes/
+│   │   ├── builder.py
+│   │   ├── render.py
+│   │   └── metrics.py
+│   ├── templates/
+│   │   ├── base.html
+│   └── static/
+│       ├── css/, js/, img/
+│
+├── config.py
+├── run.py
+├── requirements.txt
+├── README.md
+└── .gitignore
