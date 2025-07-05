@@ -1,0 +1,15 @@
+# Entorno Python
+venv/
+__pycache__/
+*.pyc
+
+# Base de datos local
+*.db
+
+# Archivos sensibles
+.env
+
+# Archivos del sistema/editor
+.DS_Store
+.idea/
+.vscode/
