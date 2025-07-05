@@ -27,3 +27,10 @@ Este archivo puede utilizarse para:
     "description": "Esta es una landing generada desde un archivo JSON."
   }
 }
+
+## 🧪 Importar ejemplos desde JSON
+
+Este repositorio incluye un script para importar landings desde archivos `.json` (como `demo/landing.json`).
+
+```bash
+python scripts/import_demo.py
